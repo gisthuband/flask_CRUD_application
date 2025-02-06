@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/flask_CRUD_application/flaskr/
+    - /bin/cp Flask --app flaskr run $DEPLOYPATH
